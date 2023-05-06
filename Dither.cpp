@@ -198,8 +198,8 @@ void dither(const dither_settings& settings,
     int num_pixels = width * height;
     float infinity = std::numeric_limits<float>::infinity();
 
-    const float hue_phase_cos = std::cosf(settings.hue_phase * TAU);
-    const float hue_phase_sin = std::sinf(settings.hue_phase * TAU);
+    const float hue_phase_cos = std::cos(settings.hue_phase * TAU);
+    const float hue_phase_sin = std::sin(settings.hue_phase * TAU);
     const float l_scale = settings.l_scale;
     const float hue_phase_cos_scale = hue_phase_cos * settings.hue_scale;
     const float hue_phase_sin_scale = hue_phase_sin * settings.hue_scale;
