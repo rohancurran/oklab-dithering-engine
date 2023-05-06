@@ -8,4 +8,4 @@
 - `--show` show result after completion
 
 ## Dependencies
-* [FFMPEG](https://www.gyan.dev/ffmpeg/builds/)
+[FFMPEG](https://ffmpeg.org/download.html#build-linux)
